@@ -1,0 +1,2397 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "44ce3e49-9800-4dad-8350-657b9fed9ae2")
+	(paper "A4")
+	(title_block
+		(title "ESP8266 ESP-01 WiFi Module")
+		(date "2026-01-23")
+		(rev "1.0")
+	)
+	(lib_symbols
+		(symbol "C315C104M5U5TA_1"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "C315C104M5U5TA"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SamacSys_Parts:C315C100J2G5TA"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1051_GOLDMAX_Z5U.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor - GoldMax 300 Comm Z5U, Ceramic, 0.1 uF, 20%, 50 VDC, 125 VDC, 85C, 10C, Z5U, GoldMax, Commercial Standard, 4 % , 1 GOhms, 3.81mm, 3.14mm, 2.54mm, Lead Spacing = 2.54mm, 7mm, 0.51mm, 500, 20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "3.14"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "80-C315C104M5U"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C315C104M5U5TA?qs=yPUL72EuMSdlpklLgkTxlg%3D%3D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "KEMET"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "C315C104M5U5TA"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "C315C104M5U5TA_1_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ESP8266:ESP-01v090"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESP-01v090"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ESP8266:ESP-01"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://l0l.org.uk/2014/12/esp8266-modules-hardware-guide-gotta-catch-em-all/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESP8266 ESP-01 module, v090"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "MODULE ESP8266 ESP-8266"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "ESP-01*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ESP-01v090_1_0"
+				(rectangle
+					(start -16.51 -8.89)
+					(end 16.51 8.89)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ESP-01v090_1_1"
+				(pin output line
+					(at -24.13 3.81 0)
+					(length 7.62)
+					(name "UTXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -24.13 1.27 0)
+					(length 7.62)
+					(name "CH_PD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -24.13 -1.27 0)
+					(length 7.62)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -24.13 -3.81 0)
+					(length 7.62)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 24.13 3.81 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 24.13 1.27 180)
+					(length 7.62)
+					(name "GPIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 24.13 -1.27 180)
+					(length 7.62)
+					(name "GPIO0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 24.13 -3.81 180)
+					(length 7.62)
+					(name "URXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:C315C104M5U5TA"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "C315C104M5U5TA"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SamacSys_Parts:C315C100J2G5TA"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1051_GOLDMAX_Z5U.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor - GoldMax 300 Comm Z5U, Ceramic, 0.1 uF, 20%, 50 VDC, 125 VDC, 85C, 10C, Z5U, GoldMax, Commercial Standard, 4 % , 1 GOhms, 3.81mm, 3.14mm, 2.54mm, Lead Spacing = 2.54mm, 7mm, 0.51mm, 500, 20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "3.14"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "80-C315C104M5U"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C315C104M5U5TA?qs=yPUL72EuMSdlpklLgkTxlg%3D%3D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "KEMET"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "C315C104M5U5TA"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "C315C104M5U5TA_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:M20-7830446"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "M20-7830446"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "RHDR8W70P254X254_2X4_1056X500X850P"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://content.harwin.com/m/9326bc87f68b4cd2/original/DRG-00386-Technical-Drawing-Datasheet-M20-783-pdf.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "M20: 4+4 Pos Receptacle DIL Straight 3mm THT Connector 8.5mm high Tin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "8.5"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "855-M20-7830446"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-7830446?qs=vF78I%252BjhbY%2FEi6Q%2F1EBREA%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Harwin"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "M20-7830446"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "M20-7830446_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -5.08 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:TXS0104ED"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TXS0104ED"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU2/DSASFU100028676.pdf"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "TXS0104ED, Voltage Level Translator, Open Drain 1.65 to 3.6, 2.3 to 5.5V 14-Pin SOIC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.75"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-TXS0104ED"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXS0104ED?qs=7kv20MEVUlg5V59AplM5UA%3D%3D"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TXS0104ED"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "TXS0104ED_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -17.78)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VCCA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "NC_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "VCCB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -5.08 180)
+					(length 5.08)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -7.62 180)
+					(length 5.08)
+					(name "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -10.16 180)
+					(length 5.08)
+					(name "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -12.7 180)
+					(length 5.08)
+					(name "NC_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -15.24 180)
+					(length 5.08)
+					(name "OE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 78.74 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "036eff24-0afc-4cb0-97a6-ae09702aad1e")
+	)
+	(junction
+		(at 139.7 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fdd4fb8-7948-46cb-a118-9a04292509ce")
+	)
+	(junction
+		(at 78.74 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "119093db-7943-4bea-94a6-300b193296a0")
+	)
+	(junction
+		(at 78.74 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a13b6ae-bbc5-40a0-9baa-a6480d0d0368")
+	)
+	(junction
+		(at 139.7 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c0b47df-f7b5-4c3c-b2be-ec6829e903a7")
+	)
+	(junction
+		(at 127 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "863c8fda-6bcc-47e8-a7f5-520060b6da26")
+	)
+	(junction
+		(at 175.26 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b34528f-5427-4825-bb1b-17d18a9d7a4f")
+	)
+	(junction
+		(at 114.3 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3041bba-0b00-4d9e-99d1-bcea7a8d5370")
+	)
+	(junction
+		(at 127 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1213f68-e5ec-42c3-8a9d-7abc8231ff0c")
+	)
+	(no_connect
+		(at 118.11 111.76)
+		(uuid "0b33c7ba-6c95-40aa-9492-20811cf6f24f")
+	)
+	(no_connect
+		(at 118.11 106.68)
+		(uuid "2b4022bd-5121-45fd-87d1-16825b979d89")
+	)
+	(no_connect
+		(at 142.24 76.2)
+		(uuid "3020e289-7d5f-4a2c-b8f9-fe0ddae3aa94")
+	)
+	(no_connect
+		(at 69.85 109.22)
+		(uuid "69126cc8-4328-4f5d-abd5-2ec356a16916")
+	)
+	(no_connect
+		(at 170.18 81.28)
+		(uuid "79f0b9bb-9064-44c6-8e28-1913e23275c8")
+	)
+	(no_connect
+		(at 104.14 86.36)
+		(uuid "7dd08ac4-da4d-4b49-b7cf-7533dd3c85d7")
+	)
+	(no_connect
+		(at 170.18 76.2)
+		(uuid "aa865f75-f1e0-44c6-a0c7-1c3a923ec072")
+	)
+	(no_connect
+		(at 69.85 114.3)
+		(uuid "b4070ac9-42c6-4ddc-8ffd-74b22348b223")
+	)
+	(no_connect
+		(at 142.24 81.28)
+		(uuid "bc819728-4540-4433-a2c0-0c1b5e9bca18")
+	)
+	(no_connect
+		(at 118.11 109.22)
+		(uuid "bece760f-1ccc-4810-8c11-64ce43f456bd")
+	)
+	(no_connect
+		(at 69.85 111.76)
+		(uuid "ce71b50a-529e-4802-ad90-de14ae78c6e4")
+	)
+	(no_connect
+		(at 118.11 114.3)
+		(uuid "e56a4e96-63ef-4232-875c-5fbd9346f434")
+	)
+	(no_connect
+		(at 69.85 106.68)
+		(uuid "eb3b70de-f437-48e8-baf8-26ef0a1daddf")
+	)
+	(wire
+		(pts
+			(xy 104.14 88.9) (xy 106.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0476b16e-a0f2-40ae-8a31-22130decf211")
+	)
+	(wire
+		(pts
+			(xy 170.18 68.58) (xy 175.26 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "098e21bf-9206-4995-937d-6a0c33f5a55b")
+	)
+	(wire
+		(pts
+			(xy 83.82 91.44) (xy 78.74 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bb068f3-2adf-4835-aeb8-bb1dc5ef6b4f")
+	)
+	(wire
+		(pts
+			(xy 170.18 73.66) (xy 190.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c4de7ae-70aa-441f-a173-7952b4a172b6")
+	)
+	(wire
+		(pts
+			(xy 104.14 83.82) (xy 114.3 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d8b62a4-6c3a-49b9-80b2-302649983075")
+	)
+	(wire
+		(pts
+			(xy 78.74 68.58) (xy 78.74 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e53ebf4-2565-4da6-84f6-4fbb18e21bd8")
+	)
+	(wire
+		(pts
+			(xy 81.28 71.12) (xy 142.24 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25fb706e-b7f6-4ee0-bc1b-215d15498517")
+	)
+	(wire
+		(pts
+			(xy 139.7 83.82) (xy 142.24 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2728cbdf-3e1c-4fa9-893a-75698941875a")
+	)
+	(wire
+		(pts
+			(xy 106.68 73.66) (xy 142.24 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30cb9939-78ed-49e6-8eb5-50aa78d2848e")
+	)
+	(wire
+		(pts
+			(xy 104.14 91.44) (xy 109.22 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40fb4484-f195-4296-b250-12ad9f081336")
+	)
+	(wire
+		(pts
+			(xy 78.74 88.9) (xy 83.82 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42023808-764c-45c8-b3c5-e7ff5f724500")
+	)
+	(wire
+		(pts
+			(xy 170.18 83.82) (xy 172.72 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "454fde20-7976-40e8-9291-2abd98dd4cbd")
+	)
+	(wire
+		(pts
+			(xy 78.74 86.36) (xy 83.82 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58483de7-15bf-4717-ac64-bd51263fcd62")
+	)
+	(wire
+		(pts
+			(xy 109.22 78.74) (xy 142.24 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67480f5e-89ff-491e-9a90-67637b5fc494")
+	)
+	(wire
+		(pts
+			(xy 114.3 83.82) (xy 139.7 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67b2d97d-7bf2-4ab2-acdd-5a5ce06b0d50")
+	)
+	(wire
+		(pts
+			(xy 109.22 91.44) (xy 109.22 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67bdf37a-c0e0-4653-be42-f1116f0a913a")
+	)
+	(wire
+		(pts
+			(xy 127 88.9) (xy 172.72 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6866aa46-1bbc-4c53-bd46-00019067d58a")
+	)
+	(wire
+		(pts
+			(xy 78.74 86.36) (xy 78.74 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7330744a-84e5-42f4-86e4-ab0c9d88b01b")
+	)
+	(wire
+		(pts
+			(xy 81.28 83.82) (xy 81.28 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "738752bf-bc5c-4f7d-945d-eef4e0a8ae6e")
+	)
+	(wire
+		(pts
+			(xy 78.74 63.5) (xy 78.74 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b3d5331-6970-4118-b923-ac2a1790bdde")
+	)
+	(wire
+		(pts
+			(xy 106.68 88.9) (xy 106.68 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a49846e-ff2b-4d5b-9437-67aad1a34ff6")
+	)
+	(wire
+		(pts
+			(xy 175.26 68.58) (xy 175.26 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a913672-02d5-4789-bbcb-19d6bda23737")
+	)
+	(wire
+		(pts
+			(xy 170.18 78.74) (xy 190.5 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93781ffe-b422-4e5a-9e1b-bffcfce682a2")
+	)
+	(wire
+		(pts
+			(xy 127 68.58) (xy 127 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9423b8f9-316b-4d05-908c-f3dabb787648")
+	)
+	(wire
+		(pts
+			(xy 172.72 83.82) (xy 172.72 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94bcf472-921e-4f92-af98-3f88a67a3078")
+	)
+	(wire
+		(pts
+			(xy 139.7 101.6) (xy 162.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e29d2e-be3d-4bdf-87e4-95d330737046")
+	)
+	(wire
+		(pts
+			(xy 170.18 71.12) (xy 190.5 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a70684b7-f675-4b24-ab1f-9c493851e89d")
+	)
+	(wire
+		(pts
+			(xy 78.74 88.9) (xy 78.74 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0795804-e879-4a56-a151-dc3a109f7140")
+	)
+	(wire
+		(pts
+			(xy 83.82 83.82) (xy 81.28 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1d05549-7e1c-4ea3-ab26-98c227764c3f")
+	)
+	(wire
+		(pts
+			(xy 139.7 83.82) (xy 139.7 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6750bee-fe49-4602-b1e1-2a16f9dd40fa")
+	)
+	(wire
+		(pts
+			(xy 78.74 68.58) (xy 127 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2d1c14c-5943-4a25-b749-526a7819b07e")
+	)
+	(wire
+		(pts
+			(xy 114.3 83.82) (xy 114.3 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c385e024-1aa8-4b64-be75-54ffa36325c1")
+	)
+	(wire
+		(pts
+			(xy 175.26 68.58) (xy 190.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b79a8f-9f72-4712-93b8-0fe98226bfd5")
+	)
+	(wire
+		(pts
+			(xy 127 68.58) (xy 142.24 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ebfde6-e0c2-48be-9519-8b58bc364773")
+	)
+	(wire
+		(pts
+			(xy 127 88.9) (xy 127 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee1a780d-c10f-4f24-87e1-9f9ef8c73df0")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 190.5 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "32bd5523-f963-4422-952c-4dadac220423")
+	)
+	(hierarchical_label "3.3V"
+		(shape input)
+		(at 78.74 63.5 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "407542cf-2964-4baf-9d5c-96f0f013c93c")
+	)
+	(hierarchical_label "TX"
+		(shape input)
+		(at 190.5 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "57fe1f64-7361-4c1c-99f8-0250424b4613")
+	)
+	(hierarchical_label "Connected"
+		(shape input)
+		(at 190.5 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5fabc8c2-a1b6-47e6-8a58-67f3ddae4dce")
+	)
+	(hierarchical_label "RX"
+		(shape input)
+		(at 190.5 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f5856b9-c4b9-41c9-aba4-c68756c43a4a")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 114.3 93.98 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a31178a9-b176-4000-a29a-7dad1deb5e2b")
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:M20-7830446")
+		(at 83.82 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "198720cd-32b8-4881-8424-dd1f1aacf9dd")
+		(property "Reference" "J1"
+			(at 93.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M20-7830446"
+			(at 93.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:RHDR8W70P254X254_2X4_1056X500X850P"
+			(at 100.33 178.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.harwin.com/m/9326bc87f68b4cd2/original/DRG-00386-Technical-Drawing-Datasheet-M20-783-pdf.pdf"
+			(at 100.33 278.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "M20: 4+4 Pos Receptacle DIL Straight 3mm THT Connector 8.5mm high Tin"
+			(at 83.82 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.5"
+			(at 100.33 478.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "855-M20-7830446"
+			(at 100.33 578.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-7830446?qs=vF78I%252BjhbY%2FEi6Q%2F1EBREA%3D%3D"
+			(at 100.33 678.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Harwin"
+			(at 100.33 778.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M20-7830446"
+			(at 100.33 878.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "e5708058-2c4f-49d1-bbf5-994048773afd")
+		)
+		(pin "1"
+			(uuid "97fa3f26-d24e-4b8d-b251-39de2b8cc1cd")
+		)
+		(pin "5"
+			(uuid "aae0f90a-d7db-47e6-be8e-8e87f1b5b11e")
+		)
+		(pin "4"
+			(uuid "899ce6b1-ae43-4c29-a299-9f8eb5cf7694")
+		)
+		(pin "3"
+			(uuid "0ea8f6e6-88bc-436c-8fd0-3449a165a935")
+		)
+		(pin "2"
+			(uuid "3de5d205-17f8-45ac-bbe9-5fe354a52210")
+		)
+		(pin "6"
+			(uuid "0b6473d7-9798-488c-897e-b8df6f618cca")
+		)
+		(pin "7"
+			(uuid "c022d831-5c5b-435c-9c2b-20112a8d6023")
+		)
+		(instances
+			(project "Arduino Mega CMRI Shield"
+				(path "/b5f17be1-57ef-4578-85e6-f9a5d0b9e453/24ca8a12-b010-4647-93e9-91c3de63f992"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:TXS0104ED")
+		(at 142.24 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e737033-592a-4292-a1d5-cd59f9de5401")
+		(property "Reference" "IC1"
+			(at 156.21 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TXS0104ED"
+			(at 156.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
+			(at 166.37 163.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU2/DSASFU100028676.pdf"
+			(at 166.37 263.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "TXS0104ED, Voltage Level Translator, Open Drain 1.65 to 3.6, 2.3 to 5.5V 14-Pin SOIC"
+			(at 142.24 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 166.37 463.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TXS0104ED"
+			(at 166.37 563.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXS0104ED?qs=7kv20MEVUlg5V59AplM5UA%3D%3D"
+			(at 166.37 663.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 166.37 763.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TXS0104ED"
+			(at 166.37 863.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a48912a-7e16-473f-ba34-c85744b699ba")
+		)
+		(pin "3"
+			(uuid "81398aa0-546b-4df1-8b0b-0aec1d16c4b5")
+		)
+		(pin "5"
+			(uuid "79b4932b-8a67-4e0e-8dd8-937edd861cc7")
+		)
+		(pin "2"
+			(uuid "4c6e0325-ed39-4781-afe9-211ab5a36654")
+		)
+		(pin "4"
+			(uuid "a1efbbf0-5e85-4e7b-a3da-a1a15fb3c1da")
+		)
+		(pin "10"
+			(uuid "3d7ccbb7-3e1a-4a2a-ae0f-d3efa75a996f")
+		)
+		(pin "14"
+			(uuid "998ff9cf-db76-46e0-9f67-7009d80ecae3")
+		)
+		(pin "9"
+			(uuid "bf53ee60-d954-4aac-a642-90af8907ff68")
+		)
+		(pin "13"
+			(uuid "f0dd6c1a-eac1-476c-ad7a-4bacaca24999")
+		)
+		(pin "7"
+			(uuid "badb5907-adf4-4dad-a3c8-94cfe211b77f")
+		)
+		(pin "12"
+			(uuid "052ad596-ed6b-4379-ad1d-ca23e428a99c")
+		)
+		(pin "6"
+			(uuid "8de2365e-8e07-42cd-a330-3941ca5ed639")
+		)
+		(pin "11"
+			(uuid "566fe711-adaa-4371-8cac-cf93c5543ac7")
+		)
+		(pin "8"
+			(uuid "5fb50a04-8c19-4e82-888f-76372ae19b92")
+		)
+		(instances
+			(project "Arduino Mega CMRI Shield"
+				(path "/b5f17be1-57ef-4578-85e6-f9a5d0b9e453/24ca8a12-b010-4647-93e9-91c3de63f992"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP8266:ESP-01v090")
+		(at 93.98 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba5ca95c-686f-4a31-8198-f70d0b7f8676")
+		(property "Reference" "U1"
+			(at 93.98 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESP-01v090"
+			(at 93.98 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ESP8266:ESP-01"
+			(at 93.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://l0l.org.uk/2014/12/esp8266-modules-hardware-guide-gotta-catch-em-all/"
+			(at 93.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESP8266 ESP-01 module, v090"
+			(at 93.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "85b1685d-d8c9-4ac9-903e-445d94ea0f84")
+		)
+		(pin "1"
+			(uuid "5ace9def-9db8-4b0a-a2a3-6267651661c7")
+		)
+		(pin "7"
+			(uuid "c2826c18-1c45-4ecf-b369-9e7753bacd98")
+		)
+		(pin "8"
+			(uuid "37b8db82-bac9-4d8b-ace7-084c0a05f4f3")
+		)
+		(pin "6"
+			(uuid "dd05d399-1c37-4e41-801d-6649c5a4af58")
+		)
+		(pin "3"
+			(uuid "50f71ffe-dca3-479b-8a7b-d0ffb0fb923f")
+		)
+		(pin "4"
+			(uuid "f4731c23-1d76-482b-a266-33d941602a93")
+		)
+		(pin "2"
+			(uuid "1d0e8019-b485-4e61-b7ee-fb33cd7310ed")
+		)
+		(instances
+			(project "Arduino Mega CMRI Shield"
+				(path "/b5f17be1-57ef-4578-85e6-f9a5d0b9e453/24ca8a12-b010-4647-93e9-91c3de63f992"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:C315C104M5U5TA")
+		(at 162.56 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5e6311e-9e33-4847-a4f3-8848d31ff38e")
+		(property "Reference" "C3"
+			(at 168.91 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C315C104M5U5TA"
+			(at 168.91 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:C315C100J2G5TA"
+			(at 171.45 197.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1051_GOLDMAX_Z5U.pdf"
+			(at 171.45 297.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor - GoldMax 300 Comm Z5U, Ceramic, 0.1 uF, 20%, 50 VDC, 125 VDC, 85C, 10C, Z5U, GoldMax, Commercial Standard, 4 % , 1 GOhms, 3.81mm, 3.14mm, 2.54mm, Lead Spacing = 2.54mm, 7mm, 0.51mm, 500, 20"
+			(at 162.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "3.14"
+			(at 171.45 497.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-C315C104M5U"
+			(at 171.45 597.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C315C104M5U5TA?qs=yPUL72EuMSdlpklLgkTxlg%3D%3D"
+			(at 171.45 697.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 171.45 797.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C315C104M5U5TA"
+			(at 171.45 897.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71c737a8-0b9f-42de-bf35-629af51d0825")
+		)
+		(pin "2"
+			(uuid "fbae0efa-e62e-4902-8cb7-460d528723bc")
+		)
+		(instances
+			(project "Arduino Mega CMRI Shield"
+				(path "/b5f17be1-57ef-4578-85e6-f9a5d0b9e453/24ca8a12-b010-4647-93e9-91c3de63f992"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C315C104M5U5TA_1")
+		(lib_id "SamacSys_Parts:C315C104M5U5TA")
+		(at 127 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e72fcedf-feed-4d54-bd95-9ea62dbb3100")
+		(property "Reference" "C2"
+			(at 133.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C315C104M5U5TA"
+			(at 133.35 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:C315C100J2G5TA"
+			(at 135.89 197.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1051_GOLDMAX_Z5U.pdf"
+			(at 135.89 297.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor - GoldMax 300 Comm Z5U, Ceramic, 0.1 uF, 20%, 50 VDC, 125 VDC, 85C, 10C, Z5U, GoldMax, Commercial Standard, 4 % , 1 GOhms, 3.81mm, 3.14mm, 2.54mm, Lead Spacing = 2.54mm, 7mm, 0.51mm, 500, 20"
+			(at 127 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "3.14"
+			(at 135.89 497.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-C315C104M5U"
+			(at 135.89 597.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C315C104M5U5TA?qs=yPUL72EuMSdlpklLgkTxlg%3D%3D"
+			(at 135.89 697.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 135.89 797.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C315C104M5U5TA"
+			(at 135.89 897.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ba3b56d-0228-4c77-9761-69c50b42d63f")
+		)
+		(pin "2"
+			(uuid "0eefb29d-87d2-4007-9c3e-4945523fcf9a")
+		)
+		(instances
+			(project "Arduino Mega CMRI Shield"
+				(path "/b5f17be1-57ef-4578-85e6-f9a5d0b9e453/24ca8a12-b010-4647-93e9-91c3de63f992"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
