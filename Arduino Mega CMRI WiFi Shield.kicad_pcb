@@ -11146,6 +11146,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "5V"
+		(at 88.265 79.375 0)
+		(layer "F.SilkS")
+		(uuid "1e9fcc11-0c02-492c-b401-f86927d7364f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Panel 16"
 		(at 137.16 78.74 0)
 		(layer "F.SilkS")
@@ -11183,7 +11195,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 88.392 79.756 0)
+		(at 88.392 81.915 0)
 		(layer "F.SilkS")
 		(uuid "50ba6e3a-5ede-4613-a702-fd14766a0881")
 		(effects
@@ -11194,7 +11206,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Arduino Mega CMRI WiFi\nVer 1.0"
+	(gr_text "Arduino Mega CMRI WiFi\nVer 1.0B"
 		(at 174.6 55.3 0)
 		(layer "F.SilkS")
 		(uuid "52292cba-446c-4efc-98ed-5aa0ce5dd778")
