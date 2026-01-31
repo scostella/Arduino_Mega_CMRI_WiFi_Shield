@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Arduino Mega CMRI WiFi Shield")
-		(date "2026-01-23")
-		(rev "1.0")
+		(date "2026-01-30")
+		(rev "1.1")
 	)
 	(lib_symbols
 		(symbol "Custom:Header-1x3-TH"
