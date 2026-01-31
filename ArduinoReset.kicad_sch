@@ -10,195 +10,7 @@
 		(rev "1.0")
 	)
 	(lib_symbols
-		(symbol "SamacSys_Parts:B3F-1006"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S"
-				(at 26.67 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "B3F-1006"
-				(at 26.67 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "B3F1006"
-				(at 26.67 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf"
-				(at 26.67 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Tactile Switches Horizontal Flat 4.33 mm 4.9 N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "4.5"
-				(at 26.67 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "653-B3F-1006"
-				(at 26.67 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/B3F-1006?qs=wE98CiVmOw78gCH%252BNiS1qg%3D%3D"
-				(at 26.67 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "OMRON Electronics"
-				(at 26.67 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "B3F-1006"
-				(at 26.67 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "B3F-1006_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 25.4 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "NO_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "COM_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 0 180)
-					(length 5.08)
-					(name "NO_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -2.54 180)
-					(length 5.08)
-					(name "COM_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SamacSys_Parts:C315C104M5U5TA"
+		(symbol "Custom:Cap-100nF-50V-TH"
 			(pin_names
 				(hide yes)
 			)
@@ -214,7 +26,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "C315C104M5U5TA"
+			(property "Value" "Cap-100nF-50V-TH"
 				(at 8.89 3.81 0)
 				(effects
 					(font
@@ -223,7 +35,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SamacSys_Parts:C315C100J2G5TA"
+			(property "Footprint" "Custom:80-C315C104M5U"
 				(at 8.89 -96.19 0)
 				(effects
 					(font
@@ -262,7 +74,16 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "80-C315C104M5U"
+			(property "Supplier" "Mouser"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Number" "80-C315C104M5U"
 				(at 8.89 -496.19 0)
 				(effects
 					(font
@@ -272,7 +93,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C315C104M5U5TA?qs=yPUL72EuMSdlpklLgkTxlg%3D%3D"
+			(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C315C104M5U5TA?qs=yPUL72EuMSdlpklLgkTxlg%3D%3D"
 				(at 8.89 -596.19 0)
 				(effects
 					(font
@@ -302,7 +123,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C315C104M5U5TA_1_1"
+			(symbol "Cap-100nF-50V-TH_1_1"
 				(polyline
 					(pts
 						(xy 5.08 0) (xy 5.588 0)
@@ -380,6 +201,203 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Custom:SW-NO-TH"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SW-NO-TH"
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Custom:653-B3F-1006"
+				(at 26.67 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf"
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch - Tactile Switches Horizontal Flat 4.33 mm 4.9 N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "4.5"
+				(at 26.67 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "Mouser"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Number" "653-B3F-1006"
+				(at 26.67 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/B3F-1006?qs=wE98CiVmOw78gCH%252BNiS1qg%3D%3D"
+				(at 26.67 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "OMRON Electronics"
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "B3F-1006"
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SW-NO-TH_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 25.4 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "NO_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "COM_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "NO_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "COM_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -504,7 +522,7 @@
 		(uuid "97734847-c31d-48f1-b2f8-24cd61712d38")
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:C315C104M5U5TA")
+		(lib_id "Custom:Cap-100nF-50V-TH")
 		(at 165.1 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -522,7 +540,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C315C104M5U5TA"
+		(property "Value" "Cap-100nF-50V-TH"
 			(at 168.91 102.8699 90)
 			(effects
 				(font
@@ -531,7 +549,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:C315C100J2G5TA"
+		(property "Footprint" "Custom:80-C315C104M5U"
 			(at 261.29 99.06 0)
 			(effects
 				(font
@@ -610,6 +628,35 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "Mouser"
+			(at 165.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "80-C315C104M5U"
+			(at 661.29 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C315C104M5U5TA?qs=yPUL72EuMSdlpklLgkTxlg%3D%3D"
+			(at 761.29 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "43c4cbb7-8ded-49cb-acea-ea738afd6af1")
 		)
@@ -626,7 +673,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:B3F-1006")
+		(lib_id "Custom:SW-NO-TH")
 		(at 109.22 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -643,7 +690,7 @@
 				)
 			)
 		)
-		(property "Value" "B3F-1006"
+		(property "Value" "SW-NO-TH"
 			(at 124.46 83.82 0)
 			(effects
 				(font
@@ -651,7 +698,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:B3F1006"
+		(property "Footprint" "Custom:653-B3F-1006"
 			(at 135.89 183.82 0)
 			(effects
 				(font
@@ -671,7 +718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Tactile Switches Horizontal Flat 4.33 mm 4.9 N"
+		(property "Description" "Switch - Tactile Switches Horizontal Flat 4.33 mm 4.9 N"
 			(at 109.22 88.9 0)
 			(effects
 				(font
@@ -722,6 +769,35 @@
 		)
 		(property "Manufacturer_Part_Number" "B3F-1006"
 			(at 135.89 883.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 109.22 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "653-B3F-1006"
+			(at 135.89 583.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier Price/Stock" "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/B3F-1006?qs=wE98CiVmOw78gCH%252BNiS1qg%3D%3D"
+			(at 135.89 683.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
