@@ -625,6 +625,18 @@
     [
       "b4b42909-53ab-4aff-bbd2-b02bc9b56a75",
       "3V3VoltageRegulator"
+    ],
+    [
+      "f05ee424-7b6e-4191-b4ed-34bc530e2052",
+      "LogicLevelShifter"
+    ],
+    [
+      "c903c757-f01e-4459-b19e-90070c05d630",
+      "LogicLevelShifter1"
+    ],
+    [
+      "f8156dbb-b993-44ba-a822-820636299b35",
+      "LogicLevelShifter2"
     ]
   ],
   "text_variables": {}

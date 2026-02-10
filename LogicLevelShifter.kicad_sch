@@ -754,7 +754,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69e32fbf-b9a1-48be-aede-3becb1cf2c0a")
-		(property "Reference" "Q1"
+		(property "Reference" "Q3"
 			(at 114.3 82.55 90)
 			(effects
 				(font
@@ -847,25 +847,25 @@
 			)
 		)
 		(pin "3"
-			(uuid "b31e2be0-1d29-47b6-8159-07eefe9f3006")
+			(uuid "3d729d5e-7cec-4f2e-9c67-cbf8282ca068")
 		)
 		(pin "2"
-			(uuid "42f711c0-cc87-436a-ae8f-90f1c99dbf35")
+			(uuid "4d4229da-51a7-4fe7-86e2-409007991a18")
 		)
 		(pin "1"
-			(uuid "716c32dd-28a9-451d-a844-1429ca70ae20")
+			(uuid "d6e68bd6-ac1c-4f6f-acdd-3800f0bac5a0")
 		)
 		(instances
 			(project "Arduino Mega CMRI WiFi Shield"
-				(path "/b5f17be1-57ef-4578-85e6-f9a5d0b9e453/24ca8a12-b010-4647-93e9-91c3de63f992/6676a218-c0f2-4979-b10d-0479ba020484"
-					(reference "Q3")
-					(unit 1)
-				)
-				(path "/b5f17be1-57ef-4578-85e6-f9a5d0b9e453/24ca8a12-b010-4647-93e9-91c3de63f992/74f7e823-7471-4755-83fe-f0f1f6e06ad4"
+				(path "/b5f17be1-57ef-4578-85e6-f9a5d0b9e453/24ca8a12-b010-4647-93e9-91c3de63f992/c903c757-f01e-4459-b19e-90070c05d630"
 					(reference "Q1")
 					(unit 1)
 				)
-				(path "/b5f17be1-57ef-4578-85e6-f9a5d0b9e453/24ca8a12-b010-4647-93e9-91c3de63f992/a8c88e65-1ee7-4962-bcaa-9ac4e8b0feb7"
+				(path "/b5f17be1-57ef-4578-85e6-f9a5d0b9e453/24ca8a12-b010-4647-93e9-91c3de63f992/f05ee424-7b6e-4191-b4ed-34bc530e2052"
+					(reference "Q3")
+					(unit 1)
+				)
+				(path "/b5f17be1-57ef-4578-85e6-f9a5d0b9e453/24ca8a12-b010-4647-93e9-91c3de63f992/f8156dbb-b993-44ba-a822-820636299b35"
 					(reference "Q2")
 					(unit 1)
 				)
@@ -882,7 +882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f17ee91-8322-4230-872f-3a0aa570487f")
-		(property "Reference" "R4"
+		(property "Reference" "R8"
 			(at 142.24 104.1399 0)
 			(effects
 				(font
@@ -973,22 +973,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "263f032a-68e9-4683-8b2e-423a49ce94c0")
+			(uuid "168778cb-b174-4d9d-8613-738f937b2364")
 		)
 		(pin "1"
-			(uuid "b736c3e3-8155-4bbb-9a2e-7ee27d2770f9")
+			(uuid "f8a2d1c7-a3aa-43fb-aa72-51bef544adf8")
 		)
 		(instances
 			(project "Arduino Mega CMRI WiFi Shield"
-				(path "/b5f17be1-57ef-4578-85e6-f9a5d0b9e453/24ca8a12-b010-4647-93e9-91c3de63f992/6676a218-c0f2-4979-b10d-0479ba020484"
-					(reference "R8")
-					(unit 1)
-				)
-				(path "/b5f17be1-57ef-4578-85e6-f9a5d0b9e453/24ca8a12-b010-4647-93e9-91c3de63f992/74f7e823-7471-4755-83fe-f0f1f6e06ad4"
+				(path "/b5f17be1-57ef-4578-85e6-f9a5d0b9e453/24ca8a12-b010-4647-93e9-91c3de63f992/c903c757-f01e-4459-b19e-90070c05d630"
 					(reference "R4")
 					(unit 1)
 				)
-				(path "/b5f17be1-57ef-4578-85e6-f9a5d0b9e453/24ca8a12-b010-4647-93e9-91c3de63f992/a8c88e65-1ee7-4962-bcaa-9ac4e8b0feb7"
+				(path "/b5f17be1-57ef-4578-85e6-f9a5d0b9e453/24ca8a12-b010-4647-93e9-91c3de63f992/f05ee424-7b6e-4191-b4ed-34bc530e2052"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/b5f17be1-57ef-4578-85e6-f9a5d0b9e453/24ca8a12-b010-4647-93e9-91c3de63f992/f8156dbb-b993-44ba-a822-820636299b35"
 					(reference "R6")
 					(unit 1)
 				)
@@ -1005,7 +1005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87b16719-cdfb-41d6-830e-254612fcbbb7")
-		(property "Reference" "R3"
+		(property "Reference" "R7"
 			(at 91.44 104.1399 0)
 			(effects
 				(font
@@ -1096,22 +1096,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "707a53ec-ac94-44a4-bdd8-f0d94a74b696")
+			(uuid "8708502d-055f-4c72-a29b-e8dcb8fdc34b")
 		)
 		(pin "1"
-			(uuid "8696224f-0b33-425c-83f9-221e06a08701")
+			(uuid "5603d4ef-2200-431c-953a-30eeaa21cfe6")
 		)
 		(instances
 			(project "Arduino Mega CMRI WiFi Shield"
-				(path "/b5f17be1-57ef-4578-85e6-f9a5d0b9e453/24ca8a12-b010-4647-93e9-91c3de63f992/6676a218-c0f2-4979-b10d-0479ba020484"
+				(path "/b5f17be1-57ef-4578-85e6-f9a5d0b9e453/24ca8a12-b010-4647-93e9-91c3de63f992/c903c757-f01e-4459-b19e-90070c05d630"
+					(reference "R2")
+					(unit 1)
+				)
+				(path "/b5f17be1-57ef-4578-85e6-f9a5d0b9e453/24ca8a12-b010-4647-93e9-91c3de63f992/f05ee424-7b6e-4191-b4ed-34bc530e2052"
 					(reference "R7")
 					(unit 1)
 				)
-				(path "/b5f17be1-57ef-4578-85e6-f9a5d0b9e453/24ca8a12-b010-4647-93e9-91c3de63f992/74f7e823-7471-4755-83fe-f0f1f6e06ad4"
-					(reference "R3")
-					(unit 1)
-				)
-				(path "/b5f17be1-57ef-4578-85e6-f9a5d0b9e453/24ca8a12-b010-4647-93e9-91c3de63f992/a8c88e65-1ee7-4962-bcaa-9ac4e8b0feb7"
+				(path "/b5f17be1-57ef-4578-85e6-f9a5d0b9e453/24ca8a12-b010-4647-93e9-91c3de63f992/f8156dbb-b993-44ba-a822-820636299b35"
 					(reference "R5")
 					(unit 1)
 				)
