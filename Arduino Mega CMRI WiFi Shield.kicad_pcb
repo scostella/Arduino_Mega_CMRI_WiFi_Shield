@@ -3017,9 +3017,8 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R7"
-			(at 3.81 -1.92 90)
+			(at 3.81 1.75 270)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "33b2e3ec-43b8-4549-8761-d924633beddd")
 			(effects
 				(font
@@ -3029,7 +3028,7 @@
 			)
 		)
 		(property "Value" "Res-10K-TH"
-			(at 3.81 1.92 90)
+			(at 3.81 1.92 270)
 			(layer "F.Fab")
 			(uuid "551c5d7a-acff-4aaa-9fef-260f2b148e37")
 			(effects
@@ -3039,8 +3038,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/YAGEO_CFR_DATASHEET.pdf"
-			(at 0 0 90)
+		(property "Datasheet" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a0ee5baf-b07d-47c1-9f05-53766400a1dd")
@@ -3051,8 +3050,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor - 10K- 1/4W - 5% - Through Hole"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ba037af6-8d57-47d3-8b36-832e4deed3f4")
@@ -3141,7 +3140,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "62945270-6005-4538-8108-729c2de2ba79")
+			(uuid "2b36aa27-a530-4777-8420-bd62add814bb")
 		)
 		(fp_line
 			(start 6.68 0)
@@ -3151,7 +3150,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9aa0598d-0f7f-4875-a03f-7104a3bf6d99")
+			(uuid "1e9a7548-ce16-4ffa-8fad-8bf801073c2f")
 		)
 		(fp_rect
 			(start 1.89 -0.92)
@@ -3162,7 +3161,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "fd8d9c0c-b733-4812-8f1b-4a10572b3775")
+			(uuid "3b387e42-b0a7-4d8d-b37f-4fd0be9bcfa3")
 		)
 		(fp_rect
 			(start -0.95 -1.05)
@@ -3173,7 +3172,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "bdd7074a-8958-4c4c-a6d4-e869f97da930")
+			(uuid "4bd3cfa6-4d59-47af-a442-4f4f5a7be97a")
 		)
 		(fp_line
 			(start 0 0)
@@ -3183,7 +3182,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2fed638d-d39b-4c4c-a22d-e81035dae93d")
+			(uuid "499a3dc2-3507-487a-ac02-cf5260b7b20f")
 		)
 		(fp_line
 			(start 7.62 0)
@@ -3193,7 +3192,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "cd26f7e7-3716-44f6-9ede-6ecec9cef210")
+			(uuid "2c5e4903-d179-420a-9f56-bff27f2b1c87")
 		)
 		(fp_rect
 			(start 2.01 -0.8)
@@ -3204,10 +3203,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "6061495f-14ab-4d7c-bff5-82de6704afd4")
+			(uuid "19aae3b3-bed9-49b1-9cc3-b33432c8b5fb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 90)
+			(at 3.81 0 270)
 			(layer "F.Fab")
 			(uuid "16c41594-4d8a-4ac3-94df-950d04c0dfa0")
 			(effects
@@ -5633,9 +5632,8 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R2"
-			(at 3.81 -1.92 90)
+			(at 3.81 1.75 270)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "c9db926d-f80c-4927-b4e2-a9b9e8d01e4e")
 			(effects
 				(font
@@ -5645,7 +5643,7 @@
 			)
 		)
 		(property "Value" "Res-10K-TH"
-			(at 3.81 1.92 90)
+			(at 3.81 1.92 270)
 			(layer "F.Fab")
 			(uuid "8afe6c4a-8c09-45ea-9097-df8da5c72229")
 			(effects
@@ -5655,8 +5653,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/YAGEO_CFR_DATASHEET.pdf"
-			(at 0 0 90)
+		(property "Datasheet" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e5b4a5f7-0b76-44de-995c-5c30b2286b80")
@@ -5667,8 +5665,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor - 10K- 1/4W - 5% - Through Hole"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a9776ddd-66f1-480c-bf9b-be57f7cd07a3")
@@ -5757,7 +5755,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7a6e297c-5676-4e72-ad7c-061c02efe4d4")
+			(uuid "65857f0a-4c56-4f6b-b370-42fec42766ee")
 		)
 		(fp_line
 			(start 6.68 0)
@@ -5767,7 +5765,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a075e5ef-edfa-4f5f-9c4e-d58389ea7d9b")
+			(uuid "c9fc0dbf-93f0-4e82-8e98-0def6621e0a9")
 		)
 		(fp_rect
 			(start 1.89 -0.92)
@@ -5778,7 +5776,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "e7f3e6c2-ef5a-486b-b757-b2bc3d0510a6")
+			(uuid "c9a3a127-1768-4341-b3a2-fe28514dde53")
 		)
 		(fp_rect
 			(start -0.95 -1.05)
@@ -5789,7 +5787,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "4ea7da16-aeaa-491c-842e-75718f5a60c5")
+			(uuid "8570c63d-5cf5-47d7-8781-e6c97b5ad139")
 		)
 		(fp_line
 			(start 0 0)
@@ -5799,7 +5797,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5decbf2f-f9c2-427c-830d-673e11a1757f")
+			(uuid "c9f924a9-8488-4997-a863-5f7eeaa234ba")
 		)
 		(fp_line
 			(start 7.62 0)
@@ -5809,7 +5807,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9dd09ad5-e0bf-4cd2-9227-4d1f8a7c3bfa")
+			(uuid "fba41213-d277-48de-80fa-2d7086b822a5")
 		)
 		(fp_rect
 			(start 2.01 -0.8)
@@ -5820,10 +5818,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "dc765cbd-0606-4ce4-9180-e319e58e958f")
+			(uuid "471b811e-cd1a-4adf-9dbb-9ab71bb31a5d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 90)
+			(at 3.81 0 270)
 			(layer "F.Fab")
 			(uuid "5af17250-b9e5-4e04-ad72-c6bfe58be806")
 			(effects
@@ -8092,9 +8090,8 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R6"
-			(at 3.81 -1.92 90)
+			(at 3.61 1.8 270)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "ef071e56-82f5-4c8b-b194-b4e88d09574c")
 			(effects
 				(font
@@ -8104,7 +8101,7 @@
 			)
 		)
 		(property "Value" "Res-10K-TH"
-			(at 3.81 1.92 90)
+			(at 3.81 1.92 270)
 			(layer "F.Fab")
 			(uuid "66e0c579-94b4-4380-b448-08955c016376")
 			(effects
@@ -8114,8 +8111,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/YAGEO_CFR_DATASHEET.pdf"
-			(at 0 0 90)
+		(property "Datasheet" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f45fb2a4-9cf2-4bf7-8f52-438e89e84f21")
@@ -8126,8 +8123,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor - 10K- 1/4W - 5% - Through Hole"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "282fab58-a1e3-4a8f-95f8-b2092d36d197")
@@ -8216,7 +8213,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d503944e-cbe4-401d-bef7-353934270e02")
+			(uuid "3991ac55-7d87-4c81-a77f-78570f419cb2")
 		)
 		(fp_line
 			(start 6.68 0)
@@ -8226,7 +8223,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "dfa10380-7448-4d2c-8765-1b6809f738bf")
+			(uuid "c80765b0-678d-42d6-830b-d69e92105bc2")
 		)
 		(fp_rect
 			(start 1.89 -0.92)
@@ -8237,7 +8234,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "f704befe-f90a-447f-a172-5c4d48b5231e")
+			(uuid "1d6bc00f-bd63-4e3c-99ba-7f9a5ec47c1a")
 		)
 		(fp_rect
 			(start -0.95 -1.05)
@@ -8248,7 +8245,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "98274f8a-f155-4a2c-81bf-84623788ea68")
+			(uuid "43ab9450-42a4-4186-b63e-f99ad6b74b55")
 		)
 		(fp_line
 			(start 0 0)
@@ -8258,7 +8255,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ed18a85e-459f-4faa-a841-99dd3c70908f")
+			(uuid "8d30ded3-f116-424b-944e-a41181a886fc")
 		)
 		(fp_line
 			(start 7.62 0)
@@ -8268,7 +8265,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "24228a81-b961-4a81-ae64-545128c6ffe3")
+			(uuid "42961312-261c-46b6-9c34-5111fbf39e0e")
 		)
 		(fp_rect
 			(start 2.01 -0.8)
@@ -8279,10 +8276,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "72df3ef9-bc55-406a-9d01-17eed6182e4b")
+			(uuid "9e22cf61-553f-4f69-8b16-91138043a8f2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 90)
+			(at 3.81 0 270)
 			(layer "F.Fab")
 			(uuid "f0ba1830-45b6-4ee8-84eb-6da9deb00681")
 			(effects
@@ -9292,9 +9289,8 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R5"
-			(at 3.81 -1.92 90)
+			(at 3.61 1.8 270)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "aebb7409-48b4-4e73-9f09-e5af8f8d366b")
 			(effects
 				(font
@@ -9304,7 +9300,7 @@
 			)
 		)
 		(property "Value" "Res-10K-TH"
-			(at 3.81 1.92 90)
+			(at 3.81 1.92 270)
 			(layer "F.Fab")
 			(uuid "b932d12c-f7a5-4fe7-a932-ac9e4fb7beac")
 			(effects
@@ -9314,8 +9310,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/YAGEO_CFR_DATASHEET.pdf"
-			(at 0 0 90)
+		(property "Datasheet" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ad3b604f-1696-4eaa-8b2f-fd330edd538b")
@@ -9326,8 +9322,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor - 10K- 1/4W - 5% - Through Hole"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a274be09-9d1f-474f-b1b4-f8cdca3f2240")
@@ -9416,7 +9412,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fcffb04d-b437-4eea-9b6e-e1a131781a2b")
+			(uuid "e3b3d9ce-4e0e-4240-aa73-5112958d06a3")
 		)
 		(fp_line
 			(start 6.68 0)
@@ -9426,7 +9422,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fcd23613-205c-4aea-9bc4-5e82b37ecea5")
+			(uuid "e3ff7963-2a1e-4e80-b890-01b7a2cc007a")
 		)
 		(fp_rect
 			(start 1.89 -0.92)
@@ -9437,7 +9433,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "14d9e07b-5862-42b1-8455-23e0c2f65edf")
+			(uuid "6ef97893-6664-4033-813d-fdf51677104f")
 		)
 		(fp_rect
 			(start -0.95 -1.05)
@@ -9448,7 +9444,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "07f8befe-f1bd-4a09-9514-cc36148f449f")
+			(uuid "a5778831-e48c-44bb-8a3b-0b6c5da255dc")
 		)
 		(fp_line
 			(start 0 0)
@@ -9458,7 +9454,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "dea7a246-d47e-49a0-af19-5f671b7472da")
+			(uuid "eb7342ba-2123-4f43-a178-300b2ac6c10f")
 		)
 		(fp_line
 			(start 7.62 0)
@@ -9468,7 +9464,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "90913945-8ef8-4176-ba48-9d362f53b75d")
+			(uuid "d14451e7-06ff-4885-8554-9e3374707651")
 		)
 		(fp_rect
 			(start 2.01 -0.8)
@@ -9479,10 +9475,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "cc42d7fc-30f6-494f-b344-01e4148486c1")
+			(uuid "e68d8f0b-e590-4c19-863a-3de0045f7729")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 90)
+			(at 3.81 0 270)
 			(layer "F.Fab")
 			(uuid "87a27c4f-d126-4325-9bb8-a844311458e2")
 			(effects
@@ -9870,9 +9866,8 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R8"
-			(at 3.81 -1.92 90)
+			(at 3.8 1.8 270)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "87c3b89a-6ca7-4b24-a8ee-90024d8261fc")
 			(effects
 				(font
@@ -9882,7 +9877,7 @@
 			)
 		)
 		(property "Value" "Res-10K-TH"
-			(at 3.81 1.92 90)
+			(at 3.81 1.92 270)
 			(layer "F.Fab")
 			(uuid "7eceaa5a-b253-4459-bed2-cb4e6c1b0b92")
 			(effects
@@ -9892,8 +9887,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/YAGEO_CFR_DATASHEET.pdf"
-			(at 0 0 90)
+		(property "Datasheet" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2c4852af-b2a9-4416-8626-7545758b39ce")
@@ -9904,8 +9899,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor - 10K- 1/4W - 5% - Through Hole"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fc786830-b40c-4aaf-a0fa-658a5d732c83")
@@ -9994,7 +9989,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c939d82e-4fc4-4d2d-b41e-64fd566fb9f0")
+			(uuid "5b194a7f-da78-483d-83d6-80d1aee37255")
 		)
 		(fp_line
 			(start 6.68 0)
@@ -10004,7 +9999,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4ffb401b-7a90-41ec-9c6e-4ef60eb6ec9c")
+			(uuid "cef0d8d4-d38d-4dab-a649-93246050187f")
 		)
 		(fp_rect
 			(start 1.89 -0.92)
@@ -10015,7 +10010,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "fcb4aa31-62e6-4d78-9173-eb437044a644")
+			(uuid "b5a12e6b-71bb-4698-9d77-24aec153517a")
 		)
 		(fp_rect
 			(start -0.95 -1.05)
@@ -10026,7 +10021,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "fe04fa0f-e4e9-4202-8e8f-1bd72de5162d")
+			(uuid "5551d5d4-8879-4bb8-87f4-22f88387d224")
 		)
 		(fp_line
 			(start 0 0)
@@ -10036,7 +10031,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "60f39d55-ee16-4a55-ad77-9ea73f5dd577")
+			(uuid "0f46949c-d6e3-4cdc-8b3e-f492212d27f7")
 		)
 		(fp_line
 			(start 7.62 0)
@@ -10046,7 +10041,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8184d45c-8156-4d1b-b190-6f58b74b7433")
+			(uuid "ce89b1f3-9fcb-4ed3-9e74-d4b321f69bcc")
 		)
 		(fp_rect
 			(start 2.01 -0.8)
@@ -10057,10 +10052,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "114ef688-faaf-4bfa-9908-bee26859ae6a")
+			(uuid "7279a150-eb2e-4367-ab10-ed282ce1403e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 90)
+			(at 3.81 0 270)
 			(layer "F.Fab")
 			(uuid "95d78255-bcd9-4618-aadd-693eb3d4f9d1")
 			(effects
@@ -13170,9 +13165,8 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R4"
-			(at 3.81 -1.92 90)
+			(at 3.81 1.75 270)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "877dc948-b97a-4b0a-9bf2-ef4ba59fc1ef")
 			(effects
 				(font
@@ -13182,7 +13176,7 @@
 			)
 		)
 		(property "Value" "Res-10K-TH"
-			(at 3.81 1.92 90)
+			(at 3.81 1.92 270)
 			(layer "F.Fab")
 			(uuid "ba62308c-6621-4f5d-94cf-1bdf13372c4b")
 			(effects
@@ -13192,8 +13186,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/YAGEO_CFR_DATASHEET.pdf"
-			(at 0 0 90)
+		(property "Datasheet" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ceb08e19-388f-4085-adfe-278ac23fa865")
@@ -13204,8 +13198,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor - 10K- 1/4W - 5% - Through Hole"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c670efaf-0d39-4d78-b6d1-88124a173a22")
@@ -13294,7 +13288,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1a895e68-1523-40f3-8855-821fcabb8e96")
+			(uuid "e70e7383-e7ca-4715-8dfe-74b5365f9810")
 		)
 		(fp_line
 			(start 6.68 0)
@@ -13304,7 +13298,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bf4d2512-4138-4ad5-a12d-a53235090ab2")
+			(uuid "ce1d1697-a998-487e-887a-356c09859bd2")
 		)
 		(fp_rect
 			(start 1.89 -0.92)
@@ -13315,7 +13309,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "466acc67-27a1-4269-b596-690edf908789")
+			(uuid "2463ab92-91d6-45b0-8d95-3fa3109e082b")
 		)
 		(fp_rect
 			(start -0.95 -1.05)
@@ -13326,7 +13320,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "d9deeacd-5d3f-4579-976e-83fda4b8cf0f")
+			(uuid "b67a1ecd-7fee-4590-b75b-63c54eff9968")
 		)
 		(fp_line
 			(start 0 0)
@@ -13336,7 +13330,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c9615073-3246-4f36-b106-68a89d91a0e3")
+			(uuid "396ad972-1550-4493-8a0d-ab398ec385db")
 		)
 		(fp_line
 			(start 7.62 0)
@@ -13346,7 +13340,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e54d6a20-33d1-45a8-bd1e-aa89ec70bc2a")
+			(uuid "f4148e28-10f7-4c6f-9c3a-c0481d1c898d")
 		)
 		(fp_rect
 			(start 2.01 -0.8)
@@ -13357,10 +13351,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "eca5657e-a944-464e-91f0-7e190077d15a")
+			(uuid "389ea30b-67ec-4c83-a5fe-dd72119d8156")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 90)
+			(at 3.81 0 270)
 			(layer "F.Fab")
 			(uuid "98f67b08-2ece-44ef-96d5-bf31383bc286")
 			(effects
