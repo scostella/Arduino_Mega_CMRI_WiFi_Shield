@@ -13511,7 +13511,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Arduino Mega CMRI WiFi\nVer 1.0B"
+	(gr_text "Arduino Mega CMRI WiFi\nVer 1.2"
 		(at 174.6 55.3 0)
 		(layer "F.SilkS")
 		(uuid "52292cba-446c-4efc-98ed-5aa0ce5dd778")

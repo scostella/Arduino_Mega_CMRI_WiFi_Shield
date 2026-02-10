@@ -5,9 +5,9 @@
 	(uuid "19676441-b18c-4f81-8b59-01f2d10b5fa5")
 	(paper "A4")
 	(title_block
-		(title "3.3V Voltage Regulator")
-		(date "2026-01-30")
-		(rev "1.1")
+		(title "Arduino Mega CMRI WiFi Shield")
+		(date "2026-02-10")
+		(rev "1.2")
 	)
 	(lib_symbols
 		(symbol "Custom:Cap-100nF-50V-TH"

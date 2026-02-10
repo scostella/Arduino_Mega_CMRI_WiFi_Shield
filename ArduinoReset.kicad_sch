@@ -5,9 +5,9 @@
 	(uuid "e7eceef9-9ae9-4bf8-8200-a02c30646f99")
 	(paper "A4")
 	(title_block
-		(title "Arduino Reset Circuit")
-		(date "2026-01-30")
-		(rev "1.1")
+		(title "Arduino Mega CMRI WiFi Shield")
+		(date "2026-02-10")
+		(rev "1.2")
 	)
 	(lib_symbols
 		(symbol "Custom:Cap-100nF-50V-TH"

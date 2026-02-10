@@ -5,9 +5,9 @@
 	(uuid "42144de1-c74f-4575-95a9-27bef3f5083e")
 	(paper "A4")
 	(title_block
-		(title "ESP8266 ESP-01 WiFi Module")
-		(date "2026-01-30")
-		(rev "1.1")
+		(title "Arduino Mega CMRI WiFi Shield")
+		(date "2026-02-10")
+		(rev "1.2")
 	)
 	(lib_symbols
 		(symbol "Custom:Res-10K-TH"
