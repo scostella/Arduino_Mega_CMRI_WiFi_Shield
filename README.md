@@ -28,7 +28,7 @@ This design is intended for modular CMRI systems where distributed I/O and netwo
 
 ## Assembled Board
 
-./Arduino%20Mega%20CMRI%20WiFi%20Shield.jpg
+![Arduino Mega CMRI WiFi Shield](./Arduino%20Mega%20CMRI%20WiFi%20Shield.jpg)
 
 The image above shows the rendered Arduino Mega CMRI WiFi Shield PCB as it plugs directly into an Arduino Mega 2560.
 
