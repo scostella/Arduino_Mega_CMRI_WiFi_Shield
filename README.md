@@ -119,7 +119,7 @@ Use of this project or any associated hardware constitutes acceptance of these t
 
 ## Availability and Purchase
 
-Fully **assembled and tested** Arduino Light Controller boards are available.
+Fully **assembled and tested** Arduino Mega CMRI WiFi Shield boards are available.
 
 - **Price:** $35 USD per board  
 - **Shipping:** Additional, based on destination  
