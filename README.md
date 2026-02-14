@@ -152,7 +152,7 @@ These projects may be combined to form a complete wireless CMRI control system.
 ```text
 /
 ├── 3V3VoltageRegulator.kicad_sch               # 3.3V Regulated Power Module
-├── Arduino Mega CMRI WiFi Shield.jpg       # Rendered image of assembled board
+├── Arduino Mega CMRI WiFi Shield.jpg           # Rendered image of assembled board
 ├── Arduino Mega CMRI WiFi Shield.kicad_pcb     # KiCad PCB Layout
 ├── Arduino Mega CMRI WiFi Shield.kicad_prl     # KiCad Project Settings
 ├── Arduino Mega CMRI WiFi Shield.kicad_pro     # KiCad Project
