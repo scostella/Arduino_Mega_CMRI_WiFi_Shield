@@ -1,15 +1,163 @@
-<H1>Arduino Mega CMRI WiFi Shield</H1>
-The Arduino Mega CMRI WiFi Shield is a custom overlay for the Arduino Mega 2560 grouping Digital and Analog pins into 16 sets of 4 for use with auxiliary modules and integration with an ESP8266 ESP-01 for WiFi. Code on the Arduino emulates a CMRI node for both input and output operations.
+# Arduino Mega CMRI WiFi Shield
 
-<H1>Changelog</H1>
-<H2>1.1</H2>
-<li>Replaced all components with those from the Custom KiCad library https://github.com/scostella/KiCadLibrary.
-<li>Replaced 10uF 10V capacitors with 10uF 25V
-<li>Reran all traces
-<li>Committed Version 1.1
+The **Arduino Mega CMRI WiFi Shield** is a custom expansion board designed to **plug directly into an Arduino Mega 2560**, organizing digital and analog I/O into structured panel‑based connectors while integrating an **ESP8266 ESP‑01** module to provide WiFi connectivity.
 
-<H2>1.0B</H2>
-<li>Fixed silkscreen issue when 5V was added to power input header.
+When used with the **Arduino CMRI Library**, this shield allows the Arduino Mega to emulate a **CMRI node** supporting both input and output operations over a network connection.
 
-<H2>1.0</H2>
-<li></li>Initial Design ready for production
+---
+
+## Overview
+
+The Arduino Mega CMRI WiFi Shield serves as the central interface between an Arduino Mega 2560, auxiliary I/O modules, and a WiFi network. The shield groups Arduino pins into standardized connectors for clean wiring and expansion while enabling wireless CMRI communication via an onboard ESP8266 ESP‑01.
+
+This design is intended for modular CMRI systems where distributed I/O and network connectivity are required.
+
+---
+
+## Key Characteristics
+
+- Plugs directly into an **Arduino Mega 2560**
+- Groups digital and analog I/O into **16 sets of 4 pins**
+- Compatible with the **Arduino CMRI Library**
+- Supports both CMRI **input and output** operations
+- Integrated **ESP8266 ESP‑01** socket for WiFi connectivity
+- Designed to interface with auxiliary modules in this series
+- Passive signal routing (no onboard I/O drivers)
+
+---
+
+## Assembled Board
+
+./Arduino%20Mega%20CMRI%20WiFi%20Shield.jpg
+
+The image above shows the rendered Arduino Mega CMRI WiFi Shield PCB as it plugs directly into an Arduino Mega 2560.
+
+---
+
+## Board Layout and Function
+
+### Panel Header Grid
+
+Just offset to the **left of the center of the board** is a **4 × 4 grid of 4‑pin headers**.
+
+- Each 4‑pin header represents a **designated panel** in the Arduino Mega CMRI WiFi sketch
+- Together, these headers group Arduino digital and analog pins into **16 panel connections**
+- The pin groupings map directly to CMRI node definitions in software
+
+This layout is designed to integrate cleanly with the auxiliary modules developed for this system, including those listed in the **Reference Projects** section. The standardized grouping simplifies wiring and ensures consistent mapping between hardware modules and CMRI configuration.
+
+---
+
+### Power Input
+
+On the **left side of the board** is a **single 3‑pin header** supplying:
+
+- **12 V**
+- **5 V**
+- **Ground**
+
+This header provides power to both the Arduino Mega and the shield, allowing a single power entry point for the CMRI node.
+
+---
+
+### ESP8266 WiFi Integration
+
+The shield includes a **single 2 × 4 socket** for an **ESP8266 ESP‑01** module.
+
+- The ESP‑01 is installed **after programming**
+- Once installed, it enables WiFi connectivity for the CMRI node
+- Communication between the Arduino Mega and ESP8266 is handled entirely in firmware
+
+This configuration allows the Arduino Mega to communicate with **JMRI or other network‑based CMRI control systems** over WiFi.
+
+---
+
+### Status Indicators
+
+The board includes **two onboard LEDs**:
+
+- **Power LED**  
+  Indicates that the Arduino Mega and shield are powered
+
+- **CMRI Connection LED**  
+  Indicates when **JMRI or another network‑based CMRI control system** is connected to the emulated CMRI node
+
+These LEDs provide immediate visual feedback on system power and network status.
+
+---
+
+## Intended Use
+
+This shield is well suited for:
+
+- CMRI‑based model railroad layouts
+- Distributed CMRI I/O nodes
+- Control panels and indicators
+- Integration with auxiliary CMRI modules
+- WiFi‑enabled CMRI systems using JMRI or similar software
+
+---
+
+## Limited Liability and Disclaimer
+
+This project is provided as an **open‑source hardware design** and is offered **as‑is**, without warranty of any kind.
+
+By using this design, documentation, or any assembled hardware provided by the author, you agree to the following:
+
+- You assume **all responsibility** for proper electrical design, wiring, installation, and use
+- The author makes **no guarantees** regarding suitability for any specific application
+- The author shall not be held liable for:
+  - Damage to equipment
+  - Electrical failures
+  - Personal injury
+  - Property damage
+  - Losses resulting from improper use, installation, or modification
+
+Use of this project or any associated hardware constitutes acceptance of these terms.
+
+---
+
+## Availability and Purchase
+
+Fully **assembled and tested** Arduino Light Controller boards are available.
+
+- **Price:** $35 USD per board  
+- **Shipping:** Additional, based on destination  
+- **Contact:**  
+  📧 scostella@seancostella.com  
+
+Please contact the author for current availability, lead times, and shipping details.
+
+---
+
+## Reference Projects
+
+The Arduino Mega CMRI WiFi Shield is part of a broader CMRI ecosystem. The following related projects provide firmware, configuration tools, and complementary hardware:
+
+- **Arduino Mega CMRI WiFi**  
+  https://github.com/scostella/Arduino_Mega_CMRI_WiFi
+
+- **ESP8266 WiFi Setup Utility**  
+  https://github.com/scostella/ESP8266WiFiSetup
+
+- **Arduino Light Controller**  
+  https://github.com/scostella/Arduino-Light-Controller
+
+These projects may be combined to form a complete wireless CMRI control system.
+
+---
+
+## Repository Contents
+
+```text
+/
+├── 3V3VoltageRegulator.kicad_sch               # 3.3V Regulated Power Module
+├── Arduino Mega CMRI WiFi Shield.jpg       # Rendered image of assembled board
+├── Arduino Mega CMRI WiFi Shield.kicad_pcb     # KiCad PCB Layout
+├── Arduino Mega CMRI WiFi Shield.kicad_prl     # KiCad Project Settings
+├── Arduino Mega CMRI WiFi Shield.kicad_pro     # KiCad Project
+├── Arduino Mega CMRI WiFi Shield.kicad_sch     # KiCad Schematic
+├── ArduinoReset.kicad_sch                      # Arduino Reset module
+├── ESP8266ESP01WiFi.kicad_sch                  # ESP8266ESP01WiFi module
+├── LogicLevelShifter.kicad_sch                 # 5V-3.3V Logic Level Shift module
+└── README.md
