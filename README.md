@@ -4,6 +4,8 @@ The **Arduino Mega CMRI WiFi Shield** is a custom expansion board designed to **
 
 When used with the **Arduino CMRI Library**, this shield allows the Arduino Mega to emulate a **CMRI node** supporting both input and output operations over a network connection.
 
+
+NOTE: It is highly recommended that your JMRI workstation uses a wired connection to the network.  
 ---
 
 ## Overview
